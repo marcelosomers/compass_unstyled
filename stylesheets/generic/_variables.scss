@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+/**
+ * Typography
+ */
+$sans-serif: "Helvetica Neue", "Helvetica", Arial, sans-serif !default;
+$serif:      "Georgia", serif !default;
+
+
+/**
+ * Font Sizing
+ */
+$base-font-size:   16px  !default;
+$line-height-ratio: 1.5em !default;
+
+
+/**
+ * Colors
+ */
+$dark-gray:     #333333 !default;
+$gray:          #aaaaaa !default;
+$light-gray:    #dadada !default;
+$white:         #ffffff !default;
+
+$blue:          #477DCA !default;
+$green:         #9ED54F !default;
+$red:           #e46a6e !default;
+$yellow:        #ffc72a !default;
+
+
+/**
+ * Base Values
+ */
+$base-font-family: $sans-serif;
+$font-color: $dark-gray;
+$accent-color: $blue;

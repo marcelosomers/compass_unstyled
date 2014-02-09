@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $ALERTS
+\*------------------------------------*/
+
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-weight: bold;
+    @include border-radius(3px);
+    display: table;
+    width: 100%;
+}
+
+    .message__content, .message__close {
+        display: table-cell;
+    }
+
+    .message__close {
+        @extend .icon-close;
+        font-size: 12px;
+        vertical-align: middle;
+        text-align: right;
+    }
+
+    .message--success {
+        background-color: lighten($green, 15%);
+        color: darken($green, 30%);
+    }
+
+    .message--error {
+        background-color: lighten($red, 15%);
+        color: darken($red, 30%);
+    }
+
+    .message--notice {
+        background-color: lighten($blue, 20%);
+        color: darken($blue, 30%);
+    }

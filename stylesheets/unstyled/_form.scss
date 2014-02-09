@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    min-height: 35px;
+    padding: 0 10px;
+    border: 1px solid $light-gray;
+    background-color: $white;
+    font-size: $base-font-size;
+    color: $dark-gray;
+    display: block;
+    @include box-sizing(border-box);
+    @include box-shadow(rgba(0,0,0,0.06) 0 1px 3px inset);
+    @include border-radius(5px);
+
+    &:focus {
+        border-color: $accent-color;
+        @include box-shadow(rgba(0,0,0,0.075) 0 1px 1px inset, rgba($accent-color, 0.6) 0 0 8px)
+    }
+}
+
+textarea {
+    padding: 10px;
+}
+
+select {
+    font-size: $base-font-size;
+}
