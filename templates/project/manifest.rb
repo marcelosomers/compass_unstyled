@@ -2,7 +2,7 @@
 description "A sensible default stylesheet for Compass projects."
 
 # Stylesheet Import
-file 'screen.scss', :like => :stylesheet, :media => 'screen, projection'
+file 'unstyled.scss', :like => :stylesheet, :media => 'screen, projection'
 
 # Compass Extension Help
 help %Q{
