@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   # Release Specific Information
   #  Replace Extension with the name you used in your extension.rb
   #   in the mdodule with version and date.
-  s.version = "0.1.beta.1"
+  s.version = "0.2"
   s.date = "2014-02-09"
 
   # Gem Details
