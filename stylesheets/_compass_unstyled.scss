@@ -3,24 +3,24 @@
 \*------------------------------------*/
 
 @import "compass";
-@import "generic/variables";
+@import "compass_unstyled/variables";
 
 
 /**
  * Importing Generic Items: normalize, reset, etc.
  */
-@import "generic/normalize";
-@import "generic/reset";
-@import "generic/clearfix";
+@import "compass_unstyled/normalize";
+@import "compass_unstyled/reset";
+@import "compass_unstyled/clearfix";
 
 
 /**
  * Unstyled Specific Styles
  */
-@import "unstyled/typography";
-@import "unstyled/lists";
-@import "unstyled/navigation";
-@import "unstyled/tables";
-@import "unstyled/buttons";
-@import "unstyled/form";
-@import "unstyled/alerts";
+@import "compass_unstyled/typography";
+@import "compass_unstyled/lists";
+@import "compass_unstyled/navigation";
+@import "compass_unstyled/tables";
+@import "compass_unstyled/buttons";
+@import "compass_unstyled/form";
+@import "compass_unstyled/alerts";
