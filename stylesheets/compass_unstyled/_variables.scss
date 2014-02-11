@@ -33,6 +33,6 @@ $yellow:        #ffc72a !default;
 /**
  * Base Values
  */
-$base-font-family: $sans-serif;
-$font-color: $dark-gray;
-$accent-color: $blue;
+$base-font-family: $sans-serif !default;
+$font-color:       $dark-gray  !default;
+$accent-color:     $blue       !default;
